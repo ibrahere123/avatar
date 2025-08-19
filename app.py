@@ -154,7 +154,7 @@ if "history" not in st.session_state:
 st.title("🗣️ Conversational AI Avatar — Bahasa Indonesia")
 st.caption("Tanya jawab dengan suara atau teks (FAQ → FAISS → Gemini → TTS).")
 
-faq_file_path = r"D:\indonasianavatar\static\QA_GO_GYM.pdf"
+faq_file_path = r"static/QA_GO_GYM.pdf"
 threshold = 0.35
 top_k = 1
 
@@ -214,7 +214,7 @@ Jawaban AI (dalam Bahasa Indonesia yang natural): """
 # Load Lottie JSON
 # ---------------------------
 lottie_animation = None
-lottie_path = r"D:\indonasianavatar\static\ava.json"
+lottie_path = r"static/ava.json"
 if os.path.exists(lottie_path):
     with open(lottie_path, "r", encoding="utf-8") as f:
         lottie_animation = json.load(f)
