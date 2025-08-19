@@ -9,3 +9,4 @@ faiss-cpu
 google-generativeai
 gTTS
 streamlit-lottie
+openai-whisper
