@@ -1,0 +1,11 @@
+streamlit==1.25.0
+numpy
+scipy
+sounddevice
+SpeechRecognition
+PyPDF2
+sentence-transformers
+faiss-cpu
+google-generativeai
+gTTS
+streamlit-lottie
