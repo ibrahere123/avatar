@@ -10,3 +10,4 @@ google-generativeai
 gTTS
 streamlit-lottie
 openai-whisper
+pillow==9.4.0
